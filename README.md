@@ -39,17 +39,39 @@ We measure feedback trends, identify satisfaction levels, and suggest improvemen
 ---
 
 ## 📊 Results
-- **Overall Student Satisfaction:** ~ `76.86%`  
-- **Highest Rated Course:** `FYBA` – `91.00%`  
-- **Lowest Rated Course:** `MSC DATA SCIENCE` – `54.67%`  
- 
+- **Overall Student Satisfaction:** ~ **76.86%**  
+- **Highest Rated Course:** **FYBA** – **91.00%**  
+- **Lowest Rated Course:** **MSC DATA SCIENCE** – **54.67%**  
+
+---
+
+## 📸 Results (Visualizations)
+
+### Average Satisfaction by Course
+![Bar Chart](plots_avg_satisfaction_by_course.png)
+
+### Overall Rating Distribution
+![Pie Chart](plots_rating_distribution.png)
+
+### Heatmap of Satisfaction
+![Heatmap](plots_satisfaction_heatmap.png)
+
 ---
 
 ## 💡 Insights & Recommendations
-- Most courses received **high satisfaction scores**, reflecting positive student engagement.  
-- Courses with lower scores may need improvements in teaching methodology, event organization, or facilities.  
-- Overall, the survey highlights strong areas of student approval and points toward targeted areas for improvement.  
+- Overall satisfaction is strong at **76.86%**, indicating students are largely satisfied.  
+- **FYBA** stood out with the **highest rating (91%)**, showing strong student approval.  
+- **MSC Data Science** recorded the **lowest satisfaction (54.67%)**, suggesting a need to improve teaching methods, course design, or event engagement in that stream.  
+- Continuous monitoring of student feedback will help maintain high satisfaction and address weaker areas effectively.  
 
 ---
 
 ## 📂 Repository Structure
+FUTURE_DS_03/
+│── README.md
+│── Student_Satisfaction_Survey.csv # Raw dataset (optional, if sharable)
+│── Student_Satisfaction_Cleaned.csv # Processed dataset with Satisfaction_%
+│── task3.ipynb # Jupyter/Colab notebook
+│── plots_avg_satisfaction_by_course.png # Bar chart
+│── plots_rating_distribution.png # Pie chart
+│── plots_satisfaction_heatmap.png # Heatmap
